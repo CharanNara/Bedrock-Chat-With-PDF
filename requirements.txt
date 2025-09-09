@@ -1,0 +1,23 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# LangChain
+langchain
+langchain-community
+langchain-aws   # new Bedrock embeddings client
+
+# AWS SDK
+boto3
+botocore 
+
+# Vector DB (local FAISS)
+faiss-cpu # use faiss-gpu if you have CUDA
+
+# PDF parsing
+PyPDF2
+
+# Utils
+python-dotenv
+structlog
+markdown2
